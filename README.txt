@@ -121,15 +121,16 @@ Apache Maven 3.6.3
 ***                                             ***
 ***************************************************
 
-Run
----
+
+
+
+****************************************************************************
+****************                                        ********************
+****************    Run the application & unit-tests    ********************
+****************                                        ********************
+****************************************************************************
 
 $ export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
-
-to enable assertions check in maven you have to run in a new shell:
-
-# Enable assertions
-# $ export MAVEN_OPTS="-ea"
 
 Run the application:
 $ mvn clean compile exec:java -Dexec.mainClass="com.cyberark.Bst"
