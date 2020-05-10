@@ -69,6 +69,14 @@
                 <version>3.0.0</version>
             </plugin>
         </plugins>
+        <resources>
+            <resource>
+            <directory>**</directory>
+            <excludes>
+            <exclude>**/.DS_Store</exclude>
+            </excludes>
+            </resource>
+        </resources>
     </build>
 
     <reporting>
